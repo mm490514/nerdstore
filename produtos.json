@@ -1,0 +1,82 @@
+[
+  {
+    "Codigo": "001",
+    "Nome": "DeathNote",
+    "Preco": 44.90
+  },
+  {
+    "Codigo": "002",
+    "Nome": "Os novos titãs",
+    "Preco": 29.90
+  },
+  {
+    "Codigo": "003",
+    "Nome": "X-MEN",
+    "Preco": 29.90
+  },
+  {
+    "Codigo": "004",
+    "Nome": "One Piece",
+    "Preco": 44.90
+  },
+  {
+    "Codigo": "005",
+    "Nome": "A pedra filosofal",
+    "Preco": 31.90
+  },
+  {
+    "Codigo": "006",
+    "Nome": "O prisioneiro de Askaban",
+    "Preco": 31.90
+  },
+  {
+    "Codigo": "007",
+    "Nome": "Conan",
+    "Preco": 31.90
+  },
+  {
+    "Codigo": "008",
+    "Nome": "Heróis em crise",
+    "Preco": 29.90
+  },
+  {
+    "Codigo": "009",
+    "Nome": "O espetacular homem-aranha",
+    "Preco": 29.90
+  },
+  {
+    "Codigo": "010",
+    "Nome": "Batman",
+    "Preco": 29.90
+  },
+  {
+    "Codigo": "011",
+    "Nome": "Guerra civil II",
+    "Preco": 29.90
+  },
+  {
+    "Codigo": "012",
+    "Nome": "YuYu Hakusho",
+    "Preco": 44.90
+  },
+  {
+    "Codigo": "013",
+    "Nome": "Demolidor",
+    "Preco": 29.90
+  },
+  {
+    "Codigo": "014",
+    "Nome": "Attack on titan",
+    "Preco": 44.90
+  },
+  {
+    "Codigo": "015",
+    "Nome": "Hunter x Hunter",
+    "Preco": 44.90
+  },
+  {
+    "Codigo": "016",
+    "Nome": "O Hobbit",
+    "Preco": 31.90
+  }
+]

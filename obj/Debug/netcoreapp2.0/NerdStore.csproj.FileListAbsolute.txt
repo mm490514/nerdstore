@@ -1,0 +1,17 @@
+D:\Developer\Cursos\Frameworks\ASP.NET\NerdStore\bin\Debug\netcoreapp2.0\appsettings.Development.json
+D:\Developer\Cursos\Frameworks\ASP.NET\NerdStore\bin\Debug\netcoreapp2.0\appsettings.json
+D:\Developer\Cursos\Frameworks\ASP.NET\NerdStore\bin\Debug\netcoreapp2.0\bundleconfig.json
+D:\Developer\Cursos\Frameworks\ASP.NET\NerdStore\bin\Debug\netcoreapp2.0\produtos.json
+D:\Developer\Cursos\Frameworks\ASP.NET\NerdStore\bin\Debug\netcoreapp2.0\NerdStore.deps.json
+D:\Developer\Cursos\Frameworks\ASP.NET\NerdStore\bin\Debug\netcoreapp2.0\NerdStore.runtimeconfig.json
+D:\Developer\Cursos\Frameworks\ASP.NET\NerdStore\bin\Debug\netcoreapp2.0\NerdStore.runtimeconfig.dev.json
+D:\Developer\Cursos\Frameworks\ASP.NET\NerdStore\bin\Debug\netcoreapp2.0\NerdStore.dll
+D:\Developer\Cursos\Frameworks\ASP.NET\NerdStore\bin\Debug\netcoreapp2.0\NerdStore.pdb
+D:\Developer\Cursos\Frameworks\ASP.NET\NerdStore\obj\Debug\netcoreapp2.0\NerdStore.GeneratedMSBuildEditorConfig.editorconfig
+D:\Developer\Cursos\Frameworks\ASP.NET\NerdStore\obj\Debug\netcoreapp2.0\NerdStore.AssemblyInfoInputs.cache
+D:\Developer\Cursos\Frameworks\ASP.NET\NerdStore\obj\Debug\netcoreapp2.0\NerdStore.AssemblyInfo.cs
+D:\Developer\Cursos\Frameworks\ASP.NET\NerdStore\obj\Debug\netcoreapp2.0\NerdStore.csproj.CoreCompileInputs.cache
+D:\Developer\Cursos\Frameworks\ASP.NET\NerdStore\obj\Debug\netcoreapp2.0\NerdStore.dll
+D:\Developer\Cursos\Frameworks\ASP.NET\NerdStore\obj\Debug\netcoreapp2.0\NerdStore.pdb
+D:\Developer\Cursos\Frameworks\ASP.NET\NerdStore\obj\Debug\netcoreapp2.0\NerdStore.genruntimeconfig.cache
+D:\Developer\Cursos\Frameworks\ASP.NET\NerdStore\obj\Debug\netcoreapp2.0\NerdStore.csproj.AssemblyReference.cache
