@@ -26,10 +26,9 @@ namespace NerdStore
             modelBuilder.Entity<Pedido>().HasMany(t => t.Itens).WithOne(t => t.Pedido);
             modelBuilder.Entity<Pedido>().HasOne(t => t.Cadastro).WithOne(t => t.Pedido).IsRequired();
 
-            modelBuilder.Entity<CadastroRepository>().HasKey(t => t.Id);
-            modelBuilder.Entity<CadastroRepository>().HasOne(t => t.Pedido);
-            modelBuilder.Entity<CadastroRepository>().HasOne(t => t.Produto);
-
+            modelBuilder.Entity<ItemPedido>().HasKey(t => t.Id);
+            modelBuilder.Entity<ItemPedido>().HasOne(t => t.Pedido);
+            modelBuilder.Entity<ItemPedido>().HasOne(t => t.Produto);
 
             modelBuilder.Entity<Cadastro>().HasKey(t => t.Id);
             modelBuilder.Entity<Cadastro>().HasOne(t => t.Pedido);

@@ -1,6 +1,7 @@
 ﻿using CasaDoCodigo.Controllers;
 using CasaDoCodigo.Models;
 using Microsoft.AspNetCore.Http;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -60,8 +61,11 @@ namespace NerdStore.Repositories
             var pedidoId = GetPedidoId();
 
             var pedido = dbSet
+                .Include(p => p.Itens)
+                    .ThenInclude(i => i.Produto)
                 .Where(p => p.Id == pedidoId)
                 .SingleOrDefault();
+                    
 
             if (pedido == null)
             {
@@ -77,7 +81,7 @@ namespace NerdStore.Repositories
         //pegar o pedido na sessão
         private int? GetPedidoId()
         {
-            return contextAccessor.HttpContext.Session.GetInt32("pedidoID");
+            return contextAccessor.HttpContext.Session.GetInt32("pedidoId");
         }
 
         //gravar pedido na sessão

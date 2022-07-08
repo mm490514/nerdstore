@@ -63,31 +63,6 @@ namespace CasaDoCodigo.Models
         public string CEP { get; set; } = "";
     }
 
-    public class CadastroRepository : BaseModel
-    {   
-        [Required]
-        public Pedido Pedido { get; private set; }
-        [Required]
-        public Produto Produto { get; private set; }
-        [Required]
-        public int Quantidade { get; private set; }
-        [Required]
-        public decimal PrecoUnitario { get; private set; }
-
-        public CadastroRepository()
-        {
-
-        }
-
-        public CadastroRepository(Pedido pedido, Produto produto, int quantidade, decimal precoUnitario)
-        {
-            Pedido = pedido;
-            Produto = produto;
-            Quantidade = quantidade;
-            PrecoUnitario = precoUnitario;
-        }
-    }
-
     public class ItemPedido : BaseModel
     {
         [Required]
@@ -125,7 +100,7 @@ namespace CasaDoCodigo.Models
             Cadastro = cadastro;
         }
 
-        public List<CadastroRepository> Itens { get; private set; } = new List<CadastroRepository>();
+        public List<ItemPedido> Itens { get; private set; } = new List<ItemPedido>();
         [Required]
         public virtual Cadastro Cadastro { get; private set; }
     }

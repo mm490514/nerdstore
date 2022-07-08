@@ -2,14 +2,14 @@
     <!--Aterar o nome da página-->
     ViewData["Title"] = "Resumo";
 }
-
+@model Pedido;
 <h3>Resumo do Pedido</h3>
 
 <div class="panel panel-default">
     <div class="panel-body">
         <div class="row">
             <div class="col-md-12">
-                <h3>Nº do Pedido: 123</h3>
+                <h3>Nº do Pedido: @(Model.Id)</h3>
             </div>
         </div>
         <hr />
