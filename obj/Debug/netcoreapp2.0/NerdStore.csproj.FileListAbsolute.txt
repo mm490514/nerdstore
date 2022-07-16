@@ -14,4 +14,3 @@ D:\Developer\Cursos\Frameworks\ASP.NET\NerdStore\obj\Debug\netcoreapp2.0\NerdSto
 D:\Developer\Cursos\Frameworks\ASP.NET\NerdStore\obj\Debug\netcoreapp2.0\NerdStore.dll
 D:\Developer\Cursos\Frameworks\ASP.NET\NerdStore\obj\Debug\netcoreapp2.0\NerdStore.pdb
 D:\Developer\Cursos\Frameworks\ASP.NET\NerdStore\obj\Debug\netcoreapp2.0\NerdStore.genruntimeconfig.cache
-D:\Developer\Cursos\Frameworks\ASP.NET\NerdStore\obj\Debug\netcoreapp2.0\NerdStore.csproj.AssemblyReference.cache
