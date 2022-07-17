@@ -10,7 +10,7 @@ using Microsoft.Extensions.DependencyInjection;
 using NerdStore;
 using NerdStore.Repositories;
 
-namespace CasaDoCodigo
+namespace NerdStore
 {
     public class Startup
     {

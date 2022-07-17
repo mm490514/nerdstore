@@ -1,5 +1,5 @@
-﻿using CasaDoCodigo;
-using CasaDoCodigo.Models;
+﻿using NerdStore;
+using NerdStore.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;

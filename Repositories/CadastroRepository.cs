@@ -1,4 +1,4 @@
-﻿using CasaDoCodigo.Models;
+﻿using NerdStore.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;

@@ -1,4 +1,4 @@
-﻿using CasaDoCodigo.Models;
+﻿using NerdStore.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;

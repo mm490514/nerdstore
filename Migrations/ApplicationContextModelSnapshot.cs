@@ -20,7 +20,7 @@ namespace NerdStore.Migrations
                 .HasAnnotation("ProductVersion", "2.0.2-rtm-10011")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("CasaDoCodigo.Models.Cadastro", b =>
+            modelBuilder.Entity("NerdStore.Models.Cadastro", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
@@ -57,7 +57,7 @@ namespace NerdStore.Migrations
                     b.ToTable("Cadastro");
                 });
 
-            modelBuilder.Entity("CasaDoCodigo.Models.ItemPedido", b =>
+            modelBuilder.Entity("NerdStore.Models.ItemPedido", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
@@ -79,7 +79,7 @@ namespace NerdStore.Migrations
                     b.ToTable("ItemPedido");
                 });
 
-            modelBuilder.Entity("CasaDoCodigo.Models.Pedido", b =>
+            modelBuilder.Entity("NerdStore.Models.Pedido", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
@@ -94,7 +94,7 @@ namespace NerdStore.Migrations
                     b.ToTable("Pedido");
                 });
 
-            modelBuilder.Entity("CasaDoCodigo.Models.Produto", b =>
+            modelBuilder.Entity("NerdStore.Models.Produto", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
@@ -112,24 +112,24 @@ namespace NerdStore.Migrations
                     b.ToTable("Produto");
                 });
 
-            modelBuilder.Entity("CasaDoCodigo.Models.ItemPedido", b =>
+            modelBuilder.Entity("NerdStore.Models.ItemPedido", b =>
                 {
-                    b.HasOne("CasaDoCodigo.Models.Pedido", "Pedido")
+                    b.HasOne("NerdStore.Models.Pedido", "Pedido")
                         .WithMany("Itens")
                         .HasForeignKey("PedidoId")
                         .OnDelete(DeleteBehavior.Cascade);
 
-                    b.HasOne("CasaDoCodigo.Models.Produto", "Produto")
+                    b.HasOne("NerdStore.Models.Produto", "Produto")
                         .WithMany()
                         .HasForeignKey("ProdutoId")
                         .OnDelete(DeleteBehavior.Cascade);
                 });
 
-            modelBuilder.Entity("CasaDoCodigo.Models.Pedido", b =>
+            modelBuilder.Entity("NerdStore.Models.Pedido", b =>
                 {
-                    b.HasOne("CasaDoCodigo.Models.Cadastro", "Cadastro")
+                    b.HasOne("NerdStore.Models.Cadastro", "Cadastro")
                         .WithOne("Pedido")
-                        .HasForeignKey("CasaDoCodigo.Models.Pedido", "CadastroId")
+                        .HasForeignKey("NerdStore.Models.Pedido", "CadastroId")
                         .OnDelete(DeleteBehavior.Cascade);
                 });
 #pragma warning restore 612, 618

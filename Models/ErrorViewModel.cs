@@ -1,6 +1,6 @@
 using System;
 
-namespace CasaDoCodigo.Models
+namespace NerdStore.Models
 {
     public class ErrorViewModel
     {

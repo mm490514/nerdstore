@@ -1,5 +1,5 @@
-﻿using CasaDoCodigo.Controllers;
-using CasaDoCodigo.Models;
+﻿using NerdStore.Controllers;
+using NerdStore.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using System;

@@ -1,4 +1,4 @@
-﻿using CasaDoCodigo.Models;
+﻿using NerdStore.Models;
 using Microsoft.EntityFrameworkCore;
 using NerdStore;
 using NerdStore.Repositories;
@@ -6,7 +6,7 @@ using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.IO;
 
-namespace CasaDoCodigo
+namespace NerdStore
 {
     //Classe para iniciar banco de dados
     class DataService : IDataService

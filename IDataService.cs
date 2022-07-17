@@ -1,4 +1,4 @@
-﻿namespace CasaDoCodigo
+﻿namespace NerdStore
 {
     interface IDataService
     {

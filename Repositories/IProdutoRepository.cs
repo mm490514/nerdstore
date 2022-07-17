@@ -1,4 +1,4 @@
-﻿using CasaDoCodigo.Models;
+﻿using NerdStore.Models;
 using System.Collections.Generic;
 
 namespace NerdStore.Repositories
