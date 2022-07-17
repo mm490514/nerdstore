@@ -8,8 +8,8 @@ namespace NerdStore.Repositories
 {
     public interface IItemPedidoRepository
     {
-        void UpdateQuantidade(ItemPedido itemPedido);
-        
+        ItemPedido GetItemPedido(int itemPedido);
+
     }
     public class ItemPedidoRepository : BaseRepository<ItemPedido>, IItemPedidoRepository
     {
@@ -17,19 +17,12 @@ namespace NerdStore.Repositories
         {
         }
 
-        public void UpdateQuantidade(ItemPedido itemPedido)
+        public ItemPedido GetItemPedido(int itemPedidoId)
         {
-            var itemPedidoDB = 
-            dbSet
-                 .Where(ip => ip.Id == itemPedido.Id)
+            return
+                dbSet
+                 .Where(ip => ip.Id == itemPedidoId)
                  .SingleOrDefault();
-
-            if(itemPedidoDB != null)
-            {
-                itemPedidoDB.AtualizaQuantidade(itemPedido.Quantidade);
-
-                contexto.SaveChanges();
-            }
         }
     }
 }

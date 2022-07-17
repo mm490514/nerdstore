@@ -55,9 +55,9 @@ namespace NerdStore.Controllers
         }
 
         [HttpPost]//Atributo de método
-        public void UpdateQuantidade([FromBody]ItemPedido itemPedido) //FromBody - indicar que vem do corpo da requisição
+        public UpdateQuantidadeResponse UpdateQuantidade([FromBody]ItemPedido itemPedido) //FromBody - indicar que vem do corpo da requisição
         {
-            itemPedidoRepository.UpdateQuantidade(itemPedido);
+            return pedidoRepository.UpdateQuantidade(itemPedido);
         }
 
     }
