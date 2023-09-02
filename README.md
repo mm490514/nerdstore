@@ -1,6 +1,4 @@
-**# nerdstore
-E-commerce com ASP.NET Core MVC  e EF Core
-**# Aplicação de Exemplo ASP.NET Core
+**# nerdstore E-commerce com ASP.NET Core MVC  e EF Core **# Aplicação de Exemplo ASP.NET Core
 
 Este repositório contém o código-fonte de uma aplicação ASP.NET Core que demonstra como configurar um aplicativo web básico usando o framework ASP.NET Core. O aplicativo apresenta algumas funcionalidades, como sessões na memória, acesso a banco de dados SQL Server e injeção de dependência.
 
@@ -45,7 +43,3 @@ Após configurar o ambiente, você pode executar a aplicação seguindo estas et
 ## Contribuições
 
 Sinta-se à vontade para contribuir com melhorias, correções de bugs ou novos recursos para esta aplicação de exemplo. Basta criar um fork deste repositório, fazer suas alterações e enviar uma solicitação pull.
-
-## Licença
-
-Este projeto é licenciado sob a [Licença MIT](LICENSE). Sinta-se à vontade para usá-lo conforme necessário.
